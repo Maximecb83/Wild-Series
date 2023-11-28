@@ -1,0 +1,21 @@
+@import "~bootstrap/scss/bootstrap";
+
+:root {
+    --background: white;
+    --color-primary: #322E2E;
+    --color-secondary: #5C8DC6;
+    --color-text: white;
+    }
+
+body {
+    background-color:var(--background) ;
+}
+
+.navbar {
+    
+    background-color:var(--color-primary)
+}
+
+.navbar a {
+    color:var(--color-text) ;
+}
